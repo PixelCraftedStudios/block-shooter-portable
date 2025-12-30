@@ -62,8 +62,8 @@ pacman -Syu
 ### 3. Install dependencies
 ```
 pacman -S mingw-w64-x86_64-gcc 
-pacman mingw-w64-x86_64-make 
-pacman mingw-w64-x86_64-raylib
+pacman -S mingw-w64-x86_64-make 
+pacman -S mingw-w64-x86_64-raylib
 ```
 ### 4. Make
 Run the ``make`` command in the project root to create a ``./build/main.exe`` you have to copy the dll's from the built_libraries folder yourself.
